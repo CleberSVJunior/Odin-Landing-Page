@@ -1,5 +1,9 @@
 body {  
-    margin: 0px;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
 }
 
 .header {
@@ -29,4 +33,60 @@ body {
     text-decoration: none;
     color: #e5e7eb;
     font-size: 18px;
+}
+
+.description {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1F2937;
+    color: #e5e7eb;
+    font-size: 18px;
+    flex: 1;
+}
+.desc-left {
+    width: 400px;
+}
+.singup {
+    flex: none;
+}
+.desc-left h1 {
+    font-size: 48px;
+    font-weight: 900;
+    color: #f9faf8;
+    padding: 0;
+    margin: 0;
+}
+.information {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+}
+.cards {
+    display:flex;
+    justify-content: center;
+}
+.quote {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+}
+.signup-banner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+}
+.signup-inverted {
+    flex: none;
+}
+.footer {
+    background-color: #1F2937;
+    color: white;
+    text-align: center;
+    padding: 32px;
+    margin: 0px;
 }
